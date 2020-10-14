@@ -14,3 +14,12 @@ cd skript_alus
 
 tekitasin giti jaoks lokaalse repositooriumi
 git init
+
+_________________________________________________
+
+
+Iga faili muudatuse korral:
+git status - kontrolli, et faili on muudetud
+git add failinimi - lisa muudetud faili jälgimis süsteemi
+git commit -m "kirjeldus" - lisad kirjelduse muudatustele, -m võti antud juhul on "-message"
+git log - kontrolli, et commit käsk salvestas
