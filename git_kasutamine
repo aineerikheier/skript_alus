@@ -1,0 +1,16 @@
+Root kasutajana:
+Apt update ja apr install git - värskendasime pakivaramut ja paigaldasime git-i
+
+Tavakasutajana:
+git config --global user.name "Ain-Eerik Heier"
+git config --global user.email "ain-eerik.heier@khk.ee"
+git config --global core.editor nano
+
+Lõin ktaloogi user kodukausta
+mkdir skript_alus
+
+sisenesin antud kausta
+cd skript_alus
+
+tekitasin giti jaoks lokaalse repositooriumi
+git init
